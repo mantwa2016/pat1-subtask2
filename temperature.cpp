@@ -6,15 +6,12 @@ int main() {
 
     // Variables to store temperature readings
     int firstTemp, secondTemp, thirdTemp;
-
     // Input first temperature
-    cout << "Enter first temperature: ";
+    cout << "Enter first Temperature: ";
     cin >> firstTemp;
-
     // Input second temperature
     cout << "Enter second temperature: ";
     cin >> secondTemp;
-
     // Check temperature increase
     if ((secondTemp - firstTemp) > 50) {
 

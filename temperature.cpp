@@ -13,7 +13,7 @@ int main() {
     cout << "Enter second temperature: ";
     cin >> secondTemp;
     // Check temperature increase
-    if ((secondTemp - firstTemp) > 40) {
+    if ((secondTemp - firstTemp) > 50) {
 
         cout << "Reduce fryer heat before taking third reading." << endl;
 
@@ -28,7 +28,7 @@ int main() {
     cin >> thirdTemp;
 
     // Check if oil temperature is correct
-    if (thirdTemp >= 150 && thirdTemp <= 190) {
+    if (thirdTemp >= 140 && thirdTemp <= 190) {
 
         cout << "You may start frying the Magwinyas." << endl;
     }

@@ -28,13 +28,13 @@ int main() {
     cin >> thirdTemp;
 
     // Check if oil temperature is correct
-    if (thirdTemp >= 140 && thirdTemp <= 190) {
+    if (thirdTemp >= 150 && thirdTemp <= 190) {
 
         cout << "You may start frying the Magwinyas." << endl;
     }
     else {
 
-        cout << "Oil is not ready for frying." << endl;
+        cout << "Oil not ready for frying." << endl;
     }
 
     return 0;

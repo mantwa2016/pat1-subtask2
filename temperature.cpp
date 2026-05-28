@@ -7,13 +7,13 @@ int main() {
     // Variables to store temperature readings
     int firstTemp, secondTemp, thirdTemp;
     // Input first temperature
-    cout << "Enter first Temperature: ";
+    cout << "Enter first temperature: ";
     cin >> firstTemp;
     // Input second temperature
     cout << "Enter second temperature: ";
     cin >> secondTemp;
     // Check temperature increase
-    if ((secondTemp - firstTemp) > 50) {
+    if ((secondTemp - firstTemp) > 40) {
 
         cout << "Reduce fryer heat before taking third reading." << endl;
 
